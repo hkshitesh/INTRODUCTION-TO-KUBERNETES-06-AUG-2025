@@ -12,3 +12,7 @@ kubectl api-resources
 
 ## General Commands
   kubectl get pod -o wide
+
+## Deployment Rollout Command (undo)
+
+kubectl rollout undo deployment deployment-rolling
