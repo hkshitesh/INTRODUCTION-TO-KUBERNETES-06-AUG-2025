@@ -9,3 +9,6 @@ kubectl get nodes
 ## Command to see Kubernetes Resources
 
 kubectl api-resources
+
+## General Commands
+  kubectl get pod -o wide
