@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  key1: value1
+  key2: value2
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-08-07T20:41:32Z"
+  name: example-configmap
+  namespace: default
+  resourceVersion: "528327"
+  uid: 816d1c55-3a51-484d-bb50-ed7110e8ef17
