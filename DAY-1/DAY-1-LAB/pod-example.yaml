@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-pod
+  name: my-web
   labels:
-    app: my-app
+    app: web
 spec:
   containers:
     - name: my-container
-      image: nginx:latest
+      image: hkshitesh/kubedemo:1.0
